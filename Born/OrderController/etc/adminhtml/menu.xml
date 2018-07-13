@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Born_OrderController::guestorder" title="Guest Order" module="Born_OrderController" sortOrder="51" resource="Born_OrderController::guestorder"/>
+         <add id="Born_OrderController::post" title="Manage Posts" module="Born_OrderController" sortOrder="10" action="born_ordercontroller/post/index" resource="Born_OrderController::post" parent="Born_OrderController::guestorder"/>
+     </menu> 
+</config>
